@@ -1,0 +1,118 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+      height: 100vh;
+      background-image:url(https://i.pinimg.com/736x/e0/45/56/e04556a34b7dd85a9bddc02fd37b815f.jpg) ;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+    }
+    .donation-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .donation-container h1 {
+      font-size: 40px;
+      font-weight: 800;
+      text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.539);
+      color: #060202;
+      margin-bottom: 5px;
+    }
+    .donation-container p {
+      font-size: 25px;
+      font-weight: 800;
+      text-shadow: 2px 3px 5px #0000009c;
+      color: #000000;
+      margin: 0;
+    }
+    .form-container {
+      background-color: #006b8f81; /* Blue background color */
+      padding: 30px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+   
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .button-group button,
+    .button-group input[type="text"] {
+      background-color: #ffffff;
+      color: #333;
+      font-size: 1em;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 48%;
+    }
+    .button-group button.active {
+      background-color: #00cc99; /* Active button color */
+      color: #ffffff;
+    }
+   
+    .amount-input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: none;
+    }
+    .form-group {
+      margin-top: 20px;
+      text-align: left;
+      color: #ffffff;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: none;
+      margin-top: 5px;
+    }
+    .form-group input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .next-button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00cc99;
+      color: #ffffff;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .next-button:hover {
+      background-color: #00997a;
+    }
+  

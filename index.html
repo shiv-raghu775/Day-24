@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="donation-container">
+  <h1>Donate Now</h1>
+  <p>To help us deliver solutions in a time of crisis</p>
+</div>
+
+<div class="form-container">
+  <h2>Choose amount</h2>
+  <div class="button-group">
+    <button type="button" onclick="selectAmount(10)">€ 10</button>
+    <button class="button-color" type="button" onclick="selectAmount(20)">€ 20</button>
+    <button type="button" onclick="selectAmount(50)">€ 50</button>
+    <button type="button" onclick="selectAmount(100)">€ 100</button>
+    <button type="button" onclick="selectAmount(250)">€ 250</button>
+    <input type="text" id="customAmount" class="amount-input" placeholder="€ Custom Amount">
+  </div>
+  
+  <div class="form-group">
+    <label for="reason">What prompted your donation?</label>
+    <select id="reason" name="reason">
+      <option value="">Please choose one</option>
+      <option value="cause">Inspired by the cause</option>
+      <option value="support">To support the organization</option>
+      <option value="other">Other reasons</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <input type="checkbox" id="comment" name="comment">
+    <label for="comment">Write us a comment</label>
+  </div>
+
+  <button class="next-button">Next</button>
+</div>
+
+
+
+</body>
+</html>
